@@ -27,7 +27,23 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
-
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.open-menu {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+.open-menu:hover {
+	background-color: yellow;
+}
+.open-menu line {
+	stroke: white;
+	stroke-width: 1px;
+}
 .main-content {
 	padding: 15px;
 	height: 2000px;
