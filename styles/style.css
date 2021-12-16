@@ -1,0 +1,35 @@
+:root {
+	--bar-background-color: rgba(40, 40, 40, 0.5);
+	--background-color: rgb(24, 24, 24);
+	--font-color: white;
+	--secondary-font-color: whitesmoke;
+	--nav-padding: 16px;
+}
+html,
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: var(--background-color);
+	flex-wrap: wrap;
+}
+.hero-bar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	padding: 0px var(--nav-padding);
+	height: 56px;
+	font-family: "Roboto", sans-serif;
+	font-size: 10px;
+	color: var(--font-color);
+	background-color: var(--bar-background-color);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-content {
+	padding: 15px;
+	height: 2000px;
+	background-color: var(--background-color);
+}
