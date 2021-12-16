@@ -36,9 +36,13 @@ body {
 	height: 40px;
 	width: 40px;
 	border-radius: 50%;
+	border: 0.2px solid transparent;
+	transition: background-color 0.02s, border 0.8s;
+	transition-timing-function: ease;
 }
-.open-menu:hover {
-	background-color: yellow;
+.open-menu:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: rgb(54, 54, 54);
 }
 .open-menu line {
 	stroke: white;
