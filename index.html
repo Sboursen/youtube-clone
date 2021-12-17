@@ -1,56 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>I am just a clone</title>
-		<link rel="icon" type="image/x-icon" href="/resources/favicon.ico">
-		<link rel="stylesheet" href="./styles/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div class="hero-bar">
-			<div class="menu">
-				<div class="open-menu">
-					 <svg viewBox="0 0 40 40">
-  						<line x1="11" y1="14" x2="29" y2="14"/>
-							<line x1="11" y1="20" x2="29" y2="20"/>
-							<line x1="11" y1="26" x2="29" y2="26"/>
-					</svg> 
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>I am just a clone</title>
+	<link rel="icon" type="image/x-icon" href="/resources/favicon.ico">
+	<link rel="stylesheet" href="./styles/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="hero-bar">
+		<div class="menu">
+			<div class="open-menu">
+				<svg viewBox="0 0 40 40">
+					<line x1="11" y1="14" x2="29" y2="14" />
+					<line x1="11" y1="20" x2="29" y2="20" />
+					<line x1="11" y1="26" x2="29" y2="26" />
+				</svg>
+			</div>
+
+			<div class="logo">
+				<div class="logo-image un-selectable" unselectable="on">
+					<img class="un-draggable un-selectable" ondragstart="return false;" src="/resources/favicon.jpeg"
+						alt="Youtube.ico">
+				</div>
+				<div class="logo-name un-selectable" unselectable="on">YouTube</div>
+				<div class="logo-country un-selectable" unselectable="on">MA</div>
+			</div>
+		</div>
+		<div class="search">
+			<form class="search-bar">
+				<input type="text" placeholder="Search"></input>
+				<div class="delete-text-container">
+					<div class="delete-text">
+						<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+							xmlns="http://www.w3.org/2000/svg">
+							<line x1="5" y1="5" x2="15" y2="15" />
+							<line x1="15" y1="5" x2="5" y2="15" />
+						</svg>
+					</div>
 				</div>
 
-				<div class="logo">
-					<div class="logo-image un-selectable" unselectable="on">
-						<img class="un-draggable un-selectable" ondragstart="return false;" src="/resources/favicon.jpeg" alt="Youtube.ico">
-					</div>
-					<div class="logo-name un-selectable" unselectable="on">YouTube</div>
-					<div class="logo-country un-selectable" unselectable="on">MA</div>
+				<div>
+					<svg width="60px" height="30px" viewBox="0 0 76 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+						xmlns="http://www.w3.org/2000/svg">
+						<defs>
+							<path d="M0 0L76 0L76 48L0 48L0 0Z" id="path_1" />
+							<clipPath id="mask_1">
+								<use xlink:href="#path_1" />
+							</clipPath>
+						</defs>
+						<g id="youtube-search-botton">
+							<g id="Group-2">
+								<path d="M0 0L76 0L76 48L0 48L0 0Z" id="Background" fill="#323232" fill-opacity="0.49803922"
+									fill-rule="evenodd" stroke="none" />
+								<g clip-path="url(#mask_1)">
+									<path
+										d="M35.9942 13.998C40.4216 13.998 43.9894 17.5658 43.9894 21.9932C43.9894 26.4207 40.4216 29.9884 35.9942 29.9884C31.5667 29.9884 27.999 26.4207 27.999 21.9932C27.999 17.5658 31.5667 13.998 35.9942 13.998L35.9942 13.998ZM35.994 12C30.4863 12 26 16.4863 26 21.994C26 27.5016 30.4863 31.9879 35.994 31.9879C38.389 31.9879 40.5886 31.1374 42.3124 29.7256L48.2795 35.6927C48.5302 35.9538 48.9024 36.059 49.2526 35.9677C49.6028 35.8764 49.8763 35.6028 49.9677 35.2526C50.059 34.9024 49.9538 34.5302 49.6927 34.2795L43.7256 28.3124C45.1374 26.5886 45.9879 24.389 45.9879 21.994C45.9879 16.4863 41.5016 12 35.994 12L35.994 12Z"
+										id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+								</g>
+							</g>
+						</g>
+					</svg>
 				</div>
-			</div>
-			<div class="search">
-				<form class="search-bar">
-					<input type="text" placeholder="Search"></input>
-					<input type="button" value="Search"></input>
-				</form>
-				<div class="audio-search">audio</div>
-			</div>
-			<div class="youtube-utility">
-				<div class="youtubecreate">     </div>
-				<div class="youtube-apps"></div>
-				<div class="youtube-notification">notifications</div>
-				<div class="youtube-user">user</div>
+			</form>
+			<div class="audio-search">
+				<?xml version="1.0" encoding="utf-8"?>
+				<svg width="36px" height="36px" viewBox="0 0 96 96" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+					xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<image width="96" height="96"
+							xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABHNCSVQICAgIfAhkiAAABFVJREFUeJztnE2oVVUUx9eK4uEHFqFRJmWSmQMrqFlCHxQ1KILsi0wjKXAQQhA1KKJJEDhJqAZBRANroBE2SWjSIAJpEkH1sJ5khpna19Nn9kp+Dc678rDnXfuct/dd+z7Xb7oOa//X+p+zz9n3nrNFgiAIgiAIgiA411BvAW0ALhaRB0TkPhG5WkSWToUOisheEdklIh+o6u8+CucowBXAW8Df2JwE3gCWeeueEwAPJjb+TCaAe7z1DzXAcx0afyabvesYSoB1GZoPcAq4y7ues1HlTRhYISJjGVOOi8hKVT2cMWcWzvMWcBa2Zs63SERezpwzC9VdAcBqEfmmUPolqnq0UO5O1HgFrCuY+96CuTtRowF3D2nuTtRoQMkF1DUFc3eiRgOWFMy9vGDuTtR4E6ZkflWtquYar4BzijDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmTDAmfNzJwQmReSCPoeMqOpkn/iEiCzIq+o0x/sFgREROdnnkElVHckpqMQVMGHEFxrxQ7mEzMBBI77IiB/LJaRHCQPGjfilRnx/LiEz8IMRv9yI/5FLSI8SBhww4quM+O5cQmbgYyN+rRH/MZeQHiUMsM6yG4z4h7mEdMh9kxHfl0tIjxIGfGvEb+kXVNXvRWRHPjmneVdVrentViP+dS4xxQDWJny52PcVdGBFpi8ke0wAlxljLk/IY129rcl+BajqZ2I87onIBiPHPhFZn02UyHpV/dk45gkj/puqfplLUFGAncaZlHQzA16c7akPPJ0wzjzgqJHn7dl3ZkAAjyU0ZlNirsc7Nv4EcH/iGClf5A/PtgfAfGDcKOgwMD8x31XAO8A/CY36C3idxM06gMUJWn8Bsv9qUBRga0KztrXMuRh4CtgN7AWOA8eAUeAjYCNwYcucOxJ0Pt+u+goAliUUBonTRCGNWxL0/dnW1GoAtiUUeAK4zkHbHcC/CfpeGLS2bACXYM+v0Myxawao6zaa6cviADBvULqKAGxIKBSaubz4VgKkTTs9bi+tZyAAu1oUvR1jpdxRwyrg0xY6XsutwQ1gITDWovhxEhZQiWMvAF5tMTbAnhxjVwVwPWnz7nRGgc3AUnuE/423BniWZr3RhkPM1Q3/gJtpnnq68B3NbogPMcMUBawEngTem2piF44A1W3okZUpE37t2KCSjAHWn0VzA+BK4Cvnhk/nE+Ai774MFJpfILc7N/4U8BJQ1Q4qAwV4hO5z9mwYBdZ6118FNI+pr5C2ap4tPwFbvGuukikjngH2F2j8HuBR7xqHBpqdc3fSfu0wnSPAmxT4LzcXQ3HzAe4UkRuleaXlYePw90XkCxH5XFWrX9EOhQHTgf57ytW2J5xFvB3tTBjgTBjgTBjgTBjgTBjgTBjgTBjgTBjgTBjgTBgQBEEQBEEQBEEQBEEQBAPiP3DqqfzEkB+mAAAAAElFTkSuQmCC"
+							id="img_1" />
+					</defs>
+					<use xlink:href="#img_1" fill="#FFFFFF" stroke="none" />
+				</svg>
 			</div>
 		</div>
-		<div class="main-content">
-			<div class="video-player">Video</div>
-			<div class="main-descripting"></div>
-			<div class="secondary-description"></div>
-			<div class="comment-section"></div>
+		<div class="youtube-utility">
+			<div class="youtubecreate"> </div>
+			<div class="youtube-apps"></div>
+			<div class="youtube-notification">notifications</div>
+			<div class="youtube-user">user</div>
 		</div>
-		<div class="recommended-content"></div>
-	</body>
+	</div>
+	<div class="main-content">
+		<div class="video-player">Video</div>
+		<div class="main-descripting"></div>
+		<div class="secondary-description"></div>
+		<div class="comment-section"></div>
+	</div>
+	<div class="recommended-content"></div>
+</body>
+
 </html>
