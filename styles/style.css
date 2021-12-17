@@ -27,6 +27,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+/*||----------------------------MENU-------------------------------*/
 .menu {
 	display: flex;
 	align-items: center;
@@ -83,4 +84,16 @@ body {
 	padding: 15px;
 	height: 2000px;
 	background-color: var(--background-color);
+}
+
+/*||--------------------------UTILITIES-----------------------------*/
+*.un-selectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+*.un-draggable {
+	-webkit-user-drag: none;
 }
