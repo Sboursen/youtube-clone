@@ -110,7 +110,7 @@ body {
 	outline: 0.5px solid transparent;
 	border-radius: 1px 0px 0px 1px;
 	padding-left: 9px;
-	padding-right: 23px;
+	padding-right: 24px;
 	color: rgb(219, 219, 219);
 	font-size: 14px;
 	font-family: sans-serif;
@@ -131,7 +131,7 @@ body {
 	height: 95%;
 	width: 34.2px;
 	position: absolute;
-	right: 58px;
+	right: 60px;
 	background-color: transparent;
 	border: 0.2px solid transparent;
 	border-radius: 50%;
@@ -152,12 +152,14 @@ body {
 }
 
 .audio-search {
+	height: 100%;
+	width: 36px;
 	display: flex;
 	align-items: center;
 	background-color: var(--background-color);
 	margin-left: 10px;
-	border: 0.2px solid transparent;
 	border-radius: 50%;
+	border: 0.2px solid transparent;
 	transition: background-color 0.02s, border 0.8s;
 	transition-timing-function: ease;
 	justify-content: center;
@@ -171,7 +173,52 @@ body {
 	border: 0.2px solid rgb(73, 73, 73);
 	background-color: var(--effect-background-color);
 }
-/*|||--------------------------UTILITIES-----------------------------*/
+.audio-search svg:active {
+	src: "resources/notification-active.svg";
+}
+/*||-----------------------YOUTUBE-UTILITY--------------------------*/
+.youtube-utility {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 204px;
+	height: 40px;
+	margin-left: 30px;
+}
+.youtube-user {
+	height: 100%;
+	border: 0.2px solid transparent;
+	border-radius: 50%;
+}
+.youtube-user img {
+	height: 99%;
+	object-fit: cover;
+}
+.youtube-user:active {
+	border: 0.2px solid rgb(0, 120, 185);
+	background-color: var(--effect-background-color);
+}
+.youtube-notification {
+	height: 100%;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 0.2px solid transparent;
+	transition: background-color 0.02s, border 0.8s;
+	transition-timing-function: ease;
+}
+.youtube-notification:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: var(--effect-background-color);
+}
+.youtube-notification img {
+	height: 50%;
+	object-fit: cover;
+}
+/*||--------------------------UTILITIES-----------------------------*/
 .un-selectable {
 	-moz-user-select: none;
 	-khtml-user-select: none;

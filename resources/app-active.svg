@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Group-10">
+    <g id="Group-4" filter="url(#filter_1)">
+      <path d="M0 0L5.26316 0L5.26316 5.26316L0 5.26316L0 0Z" id="Rectangle" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M7.36842 0L12.6316 0L12.6316 5.26316L7.36842 5.26316L7.36842 0Z" id="Rectangle-2" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M14.7368 0L20 0L20 5.26316L14.7368 5.26316L14.7368 0Z" id="Rectangle-3" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M14.7368 7.36842L20 7.36842L20 12.6316L14.7368 12.6316L14.7368 7.36842Z" id="Rectangle-4" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M14.7368 14.7368L20 14.7368L20 20L14.7368 20L14.7368 14.7368Z" id="Rectangle-5" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M7.36842 14.7368L12.6316 14.7368L12.6316 20L7.36842 20L7.36842 14.7368Z" id="Rectangle-6" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M0 14.7368L5.26316 14.7368L5.26316 20L0 20L0 14.7368Z" id="Rectangle-7" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M0 7.36842L5.26316 7.36842L5.26316 12.6316L0 12.6316L0 7.36842Z" id="Rectangle-8" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+      <path d="M7.36842 7.36842L12.6316 7.36842L12.6316 12.6316L7.36842 12.6316L7.36842 7.36842Z" id="Rectangle-10" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
