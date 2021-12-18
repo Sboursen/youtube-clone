@@ -1,6 +1,7 @@
 :root {
 	--bar-background-color: rgba(40, 40, 40, 0.5);
 	--background-color: rgb(24, 24, 24);
+	--effect-background-color: rgb(54, 54, 54);
 	--font-color: white;
 	--secondary-font-color: whitesmoke;
 	--nav-padding: 16px;
@@ -12,6 +13,7 @@ body {
 	background-color: var(--background-color);
 	flex-wrap: wrap;
 }
+/*||---------------------------NAV-BAR-------------------------------*/
 .hero-bar {
 	position: -webkit-sticky;
 	position: sticky;
@@ -27,6 +29,10 @@ body {
 	justify-content: space-between;
 	align-items: center;
 }
+.hero-bar *:hover {
+	cursor: pointer;
+}
+/*|||----------------------------MENU-------------------------------*/
 .menu {
 	display: flex;
 	align-items: center;
@@ -47,7 +53,7 @@ body {
 }
 .open-menu:active {
 	border: 0.2px solid rgb(73, 73, 73);
-	background-color: rgb(54, 54, 54);
+	background-color: var(--effect-background-color);
 }
 
 .logo {
@@ -58,7 +64,7 @@ body {
 	height: 20px;
 	width: 28px;
 	border-radius: 50%;
-	background-color: white;
+	background-color: var(--bar-background-color);
 }
 .logo-image img {
 	width: 100%;
@@ -77,6 +83,151 @@ body {
 .logo-country {
 	align-self: flex-start;
 	color: rgb(170, 170, 170);
+}
+
+/*|||----------------------------SEARCH------------------------------*/
+.search {
+	display: flex;
+	align-items: center;
+	height: 36px;
+	justify-content: space-between;
+}
+
+.search-bar {
+	background-color: var(--effect-background-color);
+	border: 1px solid var(--effect-background-color);
+	height: 100%;
+	border-radius: 1px;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.search-bar input[type="text"] {
+	height: 93%;
+	background-color: rgba(16, 16, 16, 50);
+	border: none;
+	box-shadow: none;
+	outline: 0.5px solid transparent;
+	border-radius: 1px 0px 0px 1px;
+	padding-left: 9px;
+	padding-right: 24px;
+	color: rgb(219, 219, 219);
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.search-bar input[type="text"]:hover {
+	cursor: text;
+}
+.search-bar input[type="text"]:focus {
+	outline-color: rgb(0, 120, 185);
+}
+.search-bar div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.delete-text {
+	height: 95%;
+	width: 34.2px;
+	position: absolute;
+	right: 60px;
+	background-color: transparent;
+	border: 0.2px solid transparent;
+	border-radius: 50%;
+	transition: background-color 0.01s, border 0.4s;
+	transition-timing-function: ease;
+}
+
+.delete-text:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: rgba(54, 54, 54, 0.25);
+}
+.delete-text line {
+	stroke: white;
+	stroke-width: 0.8px;
+}
+.search-bar div svg {
+	object-fit: contain;
+}
+
+.audio-search {
+	height: 100%;
+	width: 36px;
+	display: flex;
+	align-items: center;
+	background-color: var(--background-color);
+	margin-left: 10px;
+	border-radius: 50%;
+	border: 0.2px solid transparent;
+	transition: background-color 0.02s, border 0.8s;
+	transition-timing-function: ease;
+	justify-content: center;
+}
+.audio-search svg {
+	object-fit: contain;
+	width: 70%;
+}
+
+.audio-search:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: var(--effect-background-color);
+}
+.audio-search svg:active {
+	src: "resources/notification-active.svg";
+}
+/*||-----------------------YOUTUBE-UTILITY--------------------------*/
+.youtube-utility {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 204px;
+	height: 40px;
+	margin-left: 30px;
+}
+.youtube-user {
+	height: 100%;
+	border: 0.2px solid transparent;
+	border-radius: 50%;
+}
+.youtube-user img {
+	height: 99%;
+	object-fit: cover;
+}
+.youtube-user:active {
+	border: 0.2px solid rgb(0, 120, 185);
+	background-color: var(--effect-background-color);
+}
+.youtube-notification {
+	height: 100%;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 0.2px solid transparent;
+	transition: background-color 0.02s, border 0.8s;
+	transition-timing-function: ease;
+}
+.youtube-notification:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: var(--effect-background-color);
+}
+.youtube-notification img {
+	height: 50%;
+	object-fit: cover;
+}
+/*||--------------------------UTILITIES-----------------------------*/
+.un-selectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.un-draggable {
+	-webkit-user-drag: none;
 }
 
 .main-content {

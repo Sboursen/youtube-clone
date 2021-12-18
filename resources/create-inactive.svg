@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="25px" height="18px" viewBox="0 0 25 18" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Group-20" transform="translate(1 1)" filter="url(#filter_1)">
+    <path d="M0 16L18 16L18 11L23 12.5L23 3.5L18 5L18 0L0 0L0 16Z" id="New-shape" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="1.5" />
+    <g id="Group-19" transform="translate(4 2.5)">
+      <path d="M5.5 0L5.5 11M11 5.5L0 5.5" id="New-shape-2-Union" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="2" />
+    </g>
+  </g>
+</svg>
