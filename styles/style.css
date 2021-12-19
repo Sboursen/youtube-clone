@@ -147,6 +147,7 @@ body {
 	stroke: white;
 	stroke-width: 0.8px;
 }
+
 .search-bar div svg {
 	object-fit: contain;
 }
@@ -168,7 +169,6 @@ body {
 	object-fit: contain;
 	width: 70%;
 }
-
 .audio-search:active {
 	border: 0.2px solid rgb(73, 73, 73);
 	background-color: var(--effect-background-color);
@@ -194,10 +194,12 @@ body {
 	height: 99%;
 	object-fit: cover;
 }
+
 .youtube-user:active {
 	border: 0.2px solid rgb(0, 120, 185);
 	background-color: var(--effect-background-color);
 }
+
 .youtube-notification {
 	height: 100%;
 	width: 40px;
@@ -207,17 +209,63 @@ body {
 	border-radius: 50%;
 	background-color: transparent;
 	border: 0.2px solid transparent;
-	transition: background-color 0.02s, border 0.8s;
+	background-image: url(/resources/notification-inactive.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: background-image 0.2s, border 0.8s;
 	transition-timing-function: ease;
 }
+
 .youtube-notification:active {
 	border: 0.2px solid rgb(73, 73, 73);
 	background-color: var(--effect-background-color);
+	background-image: url(/resources/notification-active.svg);
 }
-.youtube-notification img {
-	height: 50%;
-	object-fit: cover;
+
+.youtube-create {
+	height: 100%;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 0.2px solid transparent;
+	background-image: url(/resources/create-inactive.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: border 0.8s;
+	transition-timing-function: ease;
 }
+
+.youtube-create:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: var(--effect-background-color);
+	background-image: url(/resources/create-active.svg);
+}
+
+.youtube-apps {
+	height: 100%;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 0.2px solid transparent;
+	background-image: url(/resources/apps-inactive.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: background-image 0.2s, border 0.8s;
+	transition-timing-function: ease;
+}
+
+.youtube-apps:active {
+	border: 0.2px solid rgb(73, 73, 73);
+	background-color: var(--effect-background-color);
+	background-image: url(/resources/apps-active.svg);
+}
+
 /*||--------------------------UTILITIES-----------------------------*/
 .un-selectable {
 	-moz-user-select: none;
