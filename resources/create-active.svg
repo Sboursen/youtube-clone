@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="23px" height="16px" viewBox="0 0 23 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="create-active">
+    <g id="Group-23">
+      <g id="create-active">
+        <g id="Group-21">
+          <path d="M18 16L0 16L0 0L18 0L18 5L23 3.5L23 12.5L18 11L18 16ZM10.5 7L10.5 2.5L8.5 2.5L8.5 7L4 7L4 9L8.5 9L8.5 13.5L10.5 13.5L10.5 9L15 9L15 7L10.5 7Z" id="Vector-Xor" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+      <g id="Group-22" filter="url(#filter_1)">
+        <path d="M0 16L18 16L18 11L23 12.5L23 3.5L18 5L18 0L0 0L0 16Z" id="New-shape" fill="none" fill-rule="evenodd" stroke="#808080" stroke-width="1.5" />
+      </g>
+    </g>
+  </g>
+</svg>

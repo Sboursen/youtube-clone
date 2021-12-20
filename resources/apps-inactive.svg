@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="inactive-apps">
+    <g id="Component-2" />
+    <g id="apps-inactive-2" transform="translate(7.9749985 8.0000305)">
+      <g id="Group-17">
+        <g id="Group-16" filter="url(#filter_1)">
+          <g id="Group-13">
+            <path d="M20 0L14.7368 0L14.7368 5.26315L20 5.26315L20 0ZM19 0.999999L15.7368 0.999999L15.7368 4.26315L19 4.26315L19 0.999999Z" id="Rectangle-3-Xor" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+            <path d="M12.6 0L7.3368 0L7.3368 5.26315L12.6 5.26315L12.6 0ZM11.6 0.999999L8.3368 0.999999L8.3368 4.26315L11.6 4.26315L11.6 0.999999Z" id="Rectangle-3-Xor-2" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+            <path d="M5.26316 0L0 0L0 5.26315L5.26316 5.26315L5.26316 0ZM4.26316 0.999999L1 0.999999L1 4.26315L4.26316 4.26315L4.26316 0.999999Z" id="Rectangle-3-Xor-3" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-15" transform="translate(0.049995422 14.736801)">
+            <path d="M20 0L14.7368 0L14.7368 5.26315L20 5.26315L20 0ZM19 0.999999L15.7368 0.999999L15.7368 4.26315L19 4.26315L19 0.999999Z" id="Rectangle-3-Xor" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+            <path d="M12.6 0L7.3368 0L7.3368 5.26315L12.6 5.26315L12.6 0ZM11.6 0.999999L8.3368 0.999999L8.3368 4.26315L11.6 4.26315L11.6 0.999999Z" id="Rectangle-3-Xor-2" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+            <path d="M5.26316 0L0 0L0 5.26315L5.26316 5.26315L5.26316 0ZM4.26316 0.999999L1 0.999999L1 4.26315L4.26316 4.26315L4.26316 0.999999Z" id="Rectangle-3-Xor-3" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+          </g>
+          <g id="Group-14" transform="translate(0.024993896 7.3684235)">
+            <path d="M20 0L14.7368 0L14.7368 5.26315L20 5.26315L20 0ZM19 0.999999L15.7368 0.999999L15.7368 4.26315L19 4.26315L19 0.999999Z" id="Rectangle-3-Xor" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+            <path d="M12.6 0L7.3368 0L7.3368 5.26315L12.6 5.26315L12.6 0ZM11.6 0.999999L8.3368 0.999999L8.3368 4.26315L11.6 4.26315L11.6 0.999999Z" id="Rectangle-3-Xor-2" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+            <path d="M5.26316 0L0 0L0 5.26315L5.26316 5.26315L5.26316 0ZM4.26316 0.999999L1 0.999999L1 4.26315L4.26316 4.26315L4.26316 0.999999Z" id="Rectangle-3-Xor-3" fill="#D3D3D3" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
